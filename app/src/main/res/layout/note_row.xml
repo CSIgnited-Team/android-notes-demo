@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginTop="10dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@drawable/note_row_bg"
+    android:id="@+id/note_row_layout">
+
+    <TextView
+        android:id="@+id/note_row_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:textColor="#A3000000"
+        android:text="This is some text"/>
+
+</LinearLayout>
